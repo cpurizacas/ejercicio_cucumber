@@ -19,6 +19,7 @@ public class LoginStep {
     By passwordLocator = By.id("password");
     By buttonLoginLocator = By.id("login-button");
     By titleProductsLocator = By.cssSelector("span.title");
+    By titleProductsLocator1 = By.cssSelector("span.title");
     By messageError = By.xpath("//h3 [@data-test='error']");
 
     @Given("El usuario se encuentra en la pantalla de inicio de la pagina")
